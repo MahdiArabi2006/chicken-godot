@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://kat7vlc08qhh"]
+
+[ext_resource type="PackedScene" uid="uid://gm5gwrs81aqm" path="res://assets/Models/Map/Hell Arena.glb" id="1_f3sb7"]
+
+[node name="world" type="Node3D"]
+
+[node name="Hell arena" parent="." instance=ExtResource("1_f3sb7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.34793794, 0.10870457, -0.5400088)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(0.9712424, 0, -0.23809275, 0, 1, 0, 0.23809275, 0, 0.9712424, 0.1557293, 0.67642486, -0.56376815)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -1.0985167)

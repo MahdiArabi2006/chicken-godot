@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtw8vkv10rwyi"
+path="res://.godot/imported/cluckcluck1.mp3-81d5571c56eacbf10e9f79031a26cadb.mp3str"
+
+[deps]
+
+source_file="res://assets/Chicken Sounds/cluckcluck1.mp3"
+dest_files=["res://.godot/imported/cluckcluck1.mp3-81d5571c56eacbf10e9f79031a26cadb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
