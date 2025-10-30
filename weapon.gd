@@ -1,6 +1,6 @@
 extends Node3D
 
-var bullet_scene: PackedScene = preload("res://Bullet.tscn")  # مسیر مستقیم
+var bullet_scene: PackedScene = preload("res://bullet.tscn")  # مسیر مستقیم
 @onready var muzzle: Marker3D = $Muzzle
 
 func _process(_delta):

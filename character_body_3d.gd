@@ -6,7 +6,9 @@ const JUMP_VELOCITY = 4.5
 const maximum_health = 100
 var health = 100
 
-
+func _ready():
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
